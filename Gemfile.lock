@@ -41,7 +41,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  actionview (= 4.2.11.1)
+  actionview (~> 4.2.11)
 
 BUNDLED WITH
    1.16.2
