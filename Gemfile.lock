@@ -1,13 +1,13 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    actionview (4.2.11)
-      activesupport (= 4.2.11)
+    actionview (4.2.10)
+      activesupport (= 4.2.10)
       builder (~> 3.1)
       erubis (~> 2.7.0)
       rails-dom-testing (~> 1.0, >= 1.0.5)
       rails-html-sanitizer (~> 1.0, >= 1.0.3)
-    activesupport (4.2.11)
+    activesupport (4.2.10)
       i18n (~> 0.7)
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
@@ -41,7 +41,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  actionview (= 4.2.11)
+  actionview (= 4.2.10)
 
 BUNDLED WITH
    1.16.2
