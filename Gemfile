@@ -1,4 +1,4 @@
 source :rubygems
 
-gem "rails", "5.2.2"
+gem "actionview", "4.2.11.1"
 
