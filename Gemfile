@@ -1,4 +1,4 @@
 source :rubygems
 
-gem "actionview", "4.2.10"
+gem "actionview", "4.2.11.1"
 
