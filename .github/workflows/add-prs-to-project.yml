@@ -10,9 +10,7 @@ jobs:
   add-prs-to-project:
     name: Add PRs to project
     runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write
-      repository-projects: write
+    permissions: write-all
     steps:
       - uses: actions/add-to-project@v0.3.0
         with:
