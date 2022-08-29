@@ -11,7 +11,7 @@ jobs:
     name: Add PRs to project
     runs-on: ubuntu-latest
     permissions:
-      pull-requests: read
+      pull-requests: write
       repository-projects: write
     steps:
       - uses: actions/add-to-project@v0.3.0
