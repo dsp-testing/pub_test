@@ -1,0 +1,22 @@
+name: Add pull requests to project
+
+on:
+  pull_request:
+    types:
+      - opened
+      - labeled
+
+jobs:
+  add-prs-to-project:
+    name: Add PRs to project
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: read
+      repository-projects: write
+    steps:
+      - uses: actions/add-to-project@v0.3.0
+        with:
+          project-url: https://github.com/orgs/dsp-testing/projects/18
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          labeled: foo, bar
+          label-operator: OR
